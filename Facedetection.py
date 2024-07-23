@@ -31,8 +31,8 @@ def process_img(img, face_detection):
 
 args = argparse.ArgumentParser()
 
-args.add_argument("--mode", default='webcam')
-args.add_argument("--filePath", default= None)
+args.add_argument("--mode", default='video')
+args.add_argument("--filePath", default='/Users/varunsriteja/Desktop/LS-ML-Assignment/Week_3/OpenCV_learn/videoplayback.mp4')
 
 args = args.parse_args()
 
@@ -59,9 +59,13 @@ with mp_face_detection.FaceDetection(min_detection_confidence=0.5, model_selecti
         ret, frame = cap.read()
 
         while ret:
-            img = process_img(img,face_detection)
+            frame = process_img(frame,face_detection)
             
+            cv2.imshow('frame', frame)
+            cv2.waitKey(25)
+
             ret, frame = cap.read()
+
 
 
         cap.release()
