@@ -28,5 +28,7 @@
 6)Image processing
 - [OpenCV](https://github.com/VarunSriTeja/My-ML-Projects/blob/main/ImagePreprocessing-OpenCV.ipynb)
 
+7)Netweavers
+- [NetWeavers](https://github.com/VarunSriTeja/My-ML-Projects/blob/main/Copy%20of%20NetWeaver_final.ipynb)
 
 
