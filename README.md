@@ -35,6 +35,10 @@
 8)Image Generation (Generative Adverserial Networks)
 - [GAN](https://github.com/VarunSriTeja/My-ML-Projects/blob/main/C-GAN__ipynb.ipynb)
 
+9)Face Recognition(Siamese NN)
+- [SiameseNN](https://github.com/VarunSriTeja/My-ML-Projects/blob/main/SiameseNN.ipynb)
+  
+
 
 
 
