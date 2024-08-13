@@ -32,6 +32,9 @@
 7)Image processing
 - [OpenCV](https://github.com/VarunSriTeja/My-ML-Projects/blob/main/ImagePreprocessing-OpenCV.ipynb)
 
+8)Image Generation (Generative Adverserial Networks)
+- [GAN](https://github.com/VarunSriTeja/My-ML-Projects/blob/main/C-GAN__ipynb.ipynb)
+
 
 
 
